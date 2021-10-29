@@ -1,0 +1,12 @@
+Activity #2: Explore Datasets Part 2 - Outcome Variable
+
+Identify the main outcome/categorical/label variable in the dataset.
+  plant species (class) is the outcome variable
+  
+How many values/groups are in this variable?
+  species are numbered 1-40 with species 1-15 and 22-36 being simple leaves and apecies 16-21 and 37-40 being complex leaves
+  
+How many observations are there in each value/group?
+  each species has between 5 and 13 observations recorded
+
+Tip: Think about how you are organising your workbook: add more code and markdown cells (and arrange them!) to keep your notebook neat
