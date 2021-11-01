@@ -3,3 +3,6 @@
 2. What relationship does it have with some of the other variables?
 
 Tip: Try using a range of box plots, scatterplots, bar charts, line graphs, etc.
+
+'library(tidyverse)
+library(readxl)'
