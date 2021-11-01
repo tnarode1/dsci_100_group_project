@@ -4,5 +4,11 @@
 
 Tip: Try using a range of box plots, scatterplots, bar charts, line graphs, etc.
 
-'library(tidyverse)
-library(readxl)'
+library(tidyverse)
+library(readxl)
+leaf_data <- read_csv("leaf.csv", col_names = FALSE)
+
+colnames(leaf_data) <- c(X1 = "class(Species)", X2 = "specimen_#", X3 = "eccentricity", X4 = "aspect_ratio", 
+                         X5 = "elongation", X6 = "solidity", X7 = "sto_convexity", X8 = "iso_factor", 
+                         X9 = "max_indent_depth", X10 = "lobedness", X11 = "ave_intensity", X12 = "ave_contrast", 
+                         X13 = "smoothness", X14 = "3rd_moment", X15 =  "uniformity", X16 = "entropy")
