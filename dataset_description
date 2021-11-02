@@ -1,0 +1,24 @@
+This dataset contains data on digital images of leaves from 40 different species of plants.
+There are 443 rows in this data set in total, each representing a single leaf, and 443 RGB coloured images of said leaves, one for each row.
+Each coloured image was photographed over a red or pink background with an Apple iPad 2 and is 24-bit, with a resolution of 720 × 920 pixels. 
+There are also 340 black-and-white binary photos of every leaf from every plant species with simple leaves, which are species 1-15 and 22-36.
+All other plant species in this dataset (species 16-21 and 37-40) have complex leaves. 
+Each row of the .csv file contains the species number of a given leaf (column 1) and its specimen ID number (column 2), 
+followed by 14 of its shape (columns 3-9) and texture (columns 10-16) attributes. 
+The .csv file does not have column names, so here they are for clarity:
+1. Class (Species)
+2. Specimen Number
+3. Eccentricity
+4. Aspect Ratio
+5. Elongation
+6. Solidity
+7. Stochastic Convexity
+8. Isoperimetric Factor
+9. Maximal Indentation Depth
+10. Lobedness
+11. Average Intensity
+12. Average Contrast
+13. Smoothness
+14. Third moment
+15. Uniformity
+16. Entropy
